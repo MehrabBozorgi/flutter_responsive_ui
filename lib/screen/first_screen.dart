@@ -184,7 +184,7 @@ class ProductWidget extends StatelessWidget {
             child: Image.asset(
               image,
               width: width * 0.3,
-              height: 250,
+              height: 260,
               fit: BoxFit.cover,
             ),
           ),
@@ -210,7 +210,7 @@ class ProductWidget extends StatelessWidget {
                   ),
                   const SizedBox(height: 5),
                   Text(
-                    'Lorem Ipsum, sometimes referred to as \'lipsum\', is the placeholder text used in design when creating content.',
+                    'Lorem Ipsum, sometimes referred to as \'lipsum\', is the placeholder text used in design ',
                     style: getDescWhite(context),
                   ),
                 ],
